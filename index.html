@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="FitClub – Best Fitness in the Town. Transform your body with expert training programs." />
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <title>Web Design Mastery | Fitclub</title>
+  </head>
+  <body>
+
+    <!-- Mobile menu -->
+    <div class="mobile__menu" id="mobileMenu">
+      <a href="#" class="mobileLink">Home</a>
+      <a href="#programs" class="mobileLink">Program</a>
+      <a href="#classes" class="mobileLink">Service</a>
+      <a href="#join" class="mobileLink">About</a>
+      <a href="#review" class="mobileLink">Community</a>
+      <button class="btn" style="margin-top:1rem;" onclick="closeMenu()">Join Now</button>
+    </div>
+
+    <!-- Nav -->
+    <nav id="navbar">
+      <div class="nav__inner">
+        <div class="nav__logo">
+          <a href="#"><img src="assets/logo.png" alt="logo" /></a>
+        </div>
+        <ul class="nav__links">
+          <li class="link"><a href="#">Home</a></li>
+          <li class="link"><a href="#programs">Program</a></li>
+          <li class="link"><a href="#classes">Service</a></li>
+          <li class="link"><a href="#join">About</a></li>
+          <li class="link"><a href="#review">Community</a></li>
+        </ul>
+        <button class="btn">Join Now</button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="section__container header__container">
+      <div class="header__content reveal">
+        <span class="bg__blur"></span>
+        <span class="bg__blur header__blur"></span>
+        <h4>BEST FITNESS IN THE TOWN</h4>
+        <h1><span>MAKE</span> YOUR BODY SHAPE</h1>
+        <p>
+          Unleash your potential and embark on a journey towards a stronger,
+          fitter, and more confident you. Sign up for 'Make Your Body Shape' now
+          and witness the incredible transformation your body is capable of!
+        </p>
+        <div class="header__actions">
+          <button class="btn">Get Started</button>
+          <button class="btn__outline">View Programs</button>
+        </div>
+        <div class="header__stats">
+          <div>
+            <div class="stat__number">12<span>K+</span></div>
+            <div class="stat__label">Members</div>
+          </div>
+          <div>
+            <div class="stat__number">40<span>+</span></div>
+            <div class="stat__label">Programs</div>
+          </div>
+          <div>
+            <div class="stat__number">8<span>+</span></div>
+            <div class="stat__label">Years</div>
+          </div>
+        </div>
+      </div>
+      <div class="header__image reveal reveal-delay-2">
+        <img src="assets/header.png" alt="header" />
+        <div class="header__badge">
+          <div class="badge__icon"><i class="ri-fire-fill"></i></div>
+          <div class="badge__text">
+            <strong>150+ Workouts</strong>
+            <span>New sessions every week</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Programs -->
+    <section class="section__container explore__container" id="programs">
+      <div class="explore__header reveal">
+        <h2 class="section__header" style="text-align:left;margin-bottom:0;">EXPLORE OUR PROGRAM</h2>
+        <div class="explore__nav">
+          <span><i class="ri-arrow-left-line"></i></span>
+          <span><i class="ri-arrow-right-line"></i></span>
+        </div>
+      </div>
+      <div class="explore__grid">
+        <div class="explore__card reveal reveal-delay-1">
+          <span><i class="ri-boxing-fill"></i></span>
+          <h4>Strength</h4>
+          <p>Embrace the essence of strength as we delve into its various dimensions physical, mental, and emotional.</p>
+          <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="explore__card reveal reveal-delay-2">
+          <span><i class="ri-heart-pulse-fill"></i></span>
+          <h4>Physical Fitness</h4>
+          <p>It encompasses a range of activities that improve health, strength, flexibility, and overall well-being.</p>
+          <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="explore__card reveal reveal-delay-3">
+          <span><i class="ri-run-line"></i></span>
+          <h4>Fat Lose</h4>
+          <p>Through a combination of workout routines and expert guidance, we'll empower you to reach your goals.</p>
+          <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="explore__card reveal reveal-delay-4">
+          <span><i class="ri-shopping-basket-fill"></i></span>
+          <h4>Weight Gain</h4>
+          <p>Designed for individuals, our program offers an effective approach to gaining weight in a sustainable manner.</p>
+          <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Classes -->
+    <section class="section__container class__container" id="classes">
+      <div class="class__image reveal">
+        <span class="bg__blur"></span>
+        <img src="assets/class-1.jpg" alt="class" class="class__img-1" />
+        <img src="assets/class-2.jpg" alt="class" class="class__img-2" />
+      </div>
+      <div class="class__content reveal reveal-delay-2">
+        <h2 class="section__header">THE CLASS YOU WILL GET HERE</h2>
+        <p>
+          Led by our team of expert and motivational instructors, "The Class You
+          Will Get Here" is a high-energy, results-driven session that combines
+          a perfect blend of cardio, strength training, and functional
+          exercises. Each class is carefully curated to keep you engaged and
+          challenged, ensuring you never hit a plateau in your fitness endeavors.
+        </p>
+        <div class="class__features">
+          <div class="class__feature"><i class="ri-checkbox-circle-fill"></i> Expert &amp; certified instructors</div>
+          <div class="class__feature"><i class="ri-checkbox-circle-fill"></i> Cardio + strength combo sessions</div>
+          <div class="class__feature"><i class="ri-checkbox-circle-fill"></i> Personalized progression tracking</div>
+          <div class="class__feature"><i class="ri-checkbox-circle-fill"></i> State-of-the-art equipment</div>
+        </div>
+        <button class="btn">Book A Class</button>
+      </div>
+    </section>
+
+    <!-- Join -->
+    <section class="section__container join__container" id="join">
+      <h2 class="section__header reveal">WHY JOIN US ?</h2>
+      <p class="section__subheader reveal">
+        Our diverse membership base creates a friendly and supportive
+        atmosphere, where you can make friends and stay motivated.
+      </p>
+      <div class="join__image reveal">
+        <img src="assets/join.jpg" alt="Join" />
+        <div class="join__grid">
+          <div class="join__card reveal reveal-delay-1">
+            <span><i class="ri-user-star-fill"></i></span>
+            <div class="join__card__content">
+              <h4>Personal Trainer</h4>
+              <p>Unlock your potential with our expert Personal Trainers.</p>
+            </div>
+          </div>
+          <div class="join__card reveal reveal-delay-2">
+            <span><i class="ri-vidicon-fill"></i></span>
+            <div class="join__card__content">
+              <h4>Practice Sessions</h4>
+              <p>Elevate your fitness with practice sessions.</p>
+            </div>
+          </div>
+          <div class="join__card reveal reveal-delay-3">
+            <span><i class="ri-building-line"></i></span>
+            <div class="join__card__content">
+              <h4>Good Management</h4>
+              <p>Supportive management, for your fitness success.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section__container price__container" id="pricing">
+      <h2 class="section__header reveal">OUR PRICING PLAN</h2>
+      <p class="section__subheader reveal">
+        Our pricing plan comes with various membership tiers, each tailored to
+        cater to different preferences and fitness aspirations.
+      </p>
+      <div class="price__grid">
+        <div class="price__card reveal reveal-delay-1">
+          <div class="price__card__content">
+            <h4>Basic Plan</h4>
+            <h3>$16 <span style="font-size:1rem;font-weight:400;opacity:0.6;">/mo</span></h3>
+            <p><i class="ri-checkbox-circle-line"></i>Smart workout plan</p>
+            <p><i class="ri-checkbox-circle-line"></i>At home workouts</p>
+          </div>
+          <button class="btn price__btn">Join Now</button>
+        </div>
+        <div class="price__card featured reveal reveal-delay-2">
+          <div class="price__badge">Most Popular</div>
+          <div class="price__card__content">
+            <h4>Weekly Plan</h4>
+            <h3>$25 <span style="font-size:1rem;font-weight:400;opacity:0.7;">/mo</span></h3>
+            <p><i class="ri-checkbox-circle-line"></i>PRO Gyms</p>
+            <p><i class="ri-checkbox-circle-line"></i>Smart workout plan</p>
+            <p><i class="ri-checkbox-circle-line"></i>At home workouts</p>
+          </div>
+          <button class="btn price__btn">Join Now</button>
+        </div>
+        <div class="price__card reveal reveal-delay-3">
+          <div class="price__card__content">
+            <h4>Monthly Plan</h4>
+            <h3>$45 <span style="font-size:1rem;font-weight:400;opacity:0.6;">/mo</span></h3>
+            <p><i class="ri-checkbox-circle-line"></i>ELITE Gyms &amp; Classes</p>
+            <p><i class="ri-checkbox-circle-line"></i>PRO Gyms</p>
+            <p><i class="ri-checkbox-circle-line"></i>Smart workout plan</p>
+            <p><i class="ri-checkbox-circle-line"></i>At home workouts</p>
+            <p><i class="ri-checkbox-circle-line"></i>Personal Training</p>
+          </div>
+          <button class="btn price__btn">Join Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Review -->
+    <section class="review">
+      <div class="section__container review__container reveal">
+        <span><i class="ri-double-quotes-r"></i></span>
+        <div class="review__content">
+          <h4>MEMBER REVIEW</h4>
+          <p>
+            What truly sets this gym apart is their expert team of trainers. The
+            trainers are knowledgeable, approachable, and genuinely invested in
+            helping members achieve their fitness goals. They take the time to
+            understand individual needs and create personalized workout plans,
+            ensuring maximum results and safety.
+          </p>
+          <div class="review__rating">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-half-fill"></i></span>
+          </div>
+          <div class="review__footer">
+            <div class="review__member">
+              <img src="assets/member.jpg" alt="member" />
+              <div class="review__member__details">
+                <h4>Jane Cooper</h4>
+                <p>Software Developer</p>
+              </div>
+            </div>
+            <div class="review__nav">
+              <span><i class="ri-arrow-left-line"></i></span>
+              <span><i class="ri-arrow-right-line"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section__container footer__container">
+      <span class="bg__blur"></span>
+      <span class="bg__blur footer__blur"></span>
+      <div class="footer__col">
+        <div class="footer__logo"><img src="assets/logo.png" alt="logo" /></div>
+        <p>
+          Take the first step towards a healthier, stronger you with our
+          unbeatable pricing plans. Let's sweat, achieve, and conquer together!
+        </p>
+        <div class="footer__socials">
+          <a href="#" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+          <a href="#" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+          <a href="#" aria-label="Twitter"><i class="ri-twitter-fill"></i></a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <a href="#">Business</a>
+        <a href="#">Franchise</a>
+        <a href="#">Partnership</a>
+        <a href="#">Network</a>
+      </div>
+      <div class="footer__col">
+        <h4>About Us</h4>
+        <a href="#">Blogs</a>
+        <a href="#">Security</a>
+        <a href="#">Careers</a>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <a href="#">Contact Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms &amp; Conditions</a>
+        <a href="#">BMI Calculator</a>
+      </div>
+    </footer>
+    <div class="footer__bar">
+      <span>Copyright © 2023 Web Design Mastery. All rights reserved.</span>
+      <span>Made with ❤️ for fitness lovers</span>
+    </div>
+
+    <button id="backToTop" aria-label="Back to top"><i class="ri-arrow-up-line"></i></button>
+
+    <script>
+      // Sticky navbar + back-to-top
+      const navbar = document.getElementById('navbar');
+      const backToTop = document.getElementById('backToTop');
+      window.addEventListener('scroll', () => {
+        navbar.classList.toggle('scrolled', window.scrollY > 60);
+        backToTop.classList.toggle('show', window.scrollY > 300);
+      });
+      backToTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+      // Hamburger menu
+      const hamburger = document.getElementById('hamburger');
+      const mobileMenu = document.getElementById('mobileMenu');
+      hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('open');
+        mobileMenu.classList.toggle('open');
+        document.body.style.overflow = mobileMenu.classList.contains('open') ? 'hidden' : '';
+      });
+      function closeMenu() {
+        hamburger.classList.remove('open');
+        mobileMenu.classList.remove('open');
+        document.body.style.overflow = '';
+      }
+      document.querySelectorAll('.mobileLink').forEach(l => l.addEventListener('click', closeMenu));
+
+      // Smooth anchor scroll
+      document.querySelectorAll('a[href^="#"]').forEach(a => {
+        a.addEventListener('click', e => {
+          const t = document.querySelector(a.getAttribute('href'));
+          if (!t) return;
+          e.preventDefault();
+          window.scrollTo({ top: t.offsetTop - 80, behavior: 'smooth' });
+        });
+      });
+
+      // Scroll reveal
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+        });
+      }, { threshold: 0.12 });
+      document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+  </body>
+</html>
